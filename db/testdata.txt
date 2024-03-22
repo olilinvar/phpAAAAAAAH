@@ -1,0 +1,7 @@
+INSERT INTO `vetikke`.`user` (`username`, `password`, `admin`, `email`) VALUES
+('john_doe', 'password123', 1, 'john.doe@example.com'),
+('jane_smith', 'qwerty456', 0, 'jane.smith@example.com');
+
+INSERT INTO `vetikke`.`ticket` (`customer_id`, `description`, `status`, `solution`, `created_at`, `updated_at`) VALUES
+(1, 'Issue with software installation', 'Open', NULL, NOW(), NOW()),
+(2, 'Cannot access account', 'Closed', 'Reset password sent', NOW(), NOW());
