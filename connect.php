@@ -8,7 +8,7 @@
     <?php
         try {
             //Opprette kobling
-            $kobling = new mysqli('localhost', 'oliver', 'IMKuben1337!', 'databasen');
+            $kobling = new mysqli('localhost', 'root', 'root', 'databasen');
 
             //sjekk om kobling virker
             if ($kobling->connect_error) {
