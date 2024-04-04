@@ -1,6 +1,7 @@
+<h1>hei</h1>
 <?php 
     //Opprette kobling
-    $kobling = new mysqli('localhost', 'username', 'passowrd', 'databasen');
+    $kobling = new mysqli('localhost', 'oliver', 'IMKuben1337!', 'databasen');
 
     //sjekk om kobling virker
     if($kobling->connect_error) {
